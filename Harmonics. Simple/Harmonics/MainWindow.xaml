@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Harmonics" Width="1052" Height="308" MouseWheel="Window_MouseWheel" Background="Black">
+    <Grid Margin="5">
+        <StackPanel>
+            <WrapPanel>
+                <Slider x:Name="sl" Maximum="30" Minimum="2" Value="2" SmallChange="1" Width="300" VerticalAlignment="Center" ValueChanged="sl_ValueChanged" />
+                <Label x:Name="lb" Width="50" Content="2" Foreground="White" />
+            </WrapPanel>
+            <local:DrawingVisualClass x:Name="g" HorizontalAlignment="Center" VerticalAlignment="Center" Width="1022" Background="Black" Height="260" MouseMove="g_MouseMove"/>
+        </StackPanel>
+    </Grid>
+</Window>
