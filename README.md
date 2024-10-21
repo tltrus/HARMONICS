@@ -3,7 +3,8 @@
 # Harmonics-simple
 
 C# algorithm.
-Sum of several fuctions to show total func.
+
+Simple sum of several fuctions to show total series. Without integrations, Fourier and etc.
 
 - Youtube:
 - Rutube: 
