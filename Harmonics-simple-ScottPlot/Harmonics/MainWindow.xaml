@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ScottPlot="clr-namespace:ScottPlot.WPF;assembly=ScottPlot.WPF"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Harmonics" Width="879" Height="569">
+    <Grid Margin="5">
+        <StackPanel>
+            <WrapPanel Margin="5">
+                <Slider x:Name="sl" Maximum="30" Minimum="2" Value="2" SmallChange="1" Width="300" VerticalAlignment="Center" ValueChanged="sl_ValueChanged" />
+                <Label x:Name="lb" Width="50" Content="2" Foreground="Black" />
+            </WrapPanel>
+            <WrapPanel x:Name="wp">
+            </WrapPanel>
+            <ScottPlot:WpfPlot x:Name="WpfPlot1" Height="494"/>
+        </StackPanel>
+    </Grid>
+</Window>
