@@ -7,7 +7,7 @@ C# algorithm.
 Simple sum of several fuctions to show total series. Without integrations, Fourier and etc.
 
 - Youtube: https://youtu.be/Cm2y73_R5qA
-- Rutube: https://rutube.ru/video/bb2c7c79e1660cecc7d67a8c8742ce38/
+- Rutube: 
 
 ![image](https://github.com/user-attachments/assets/fd8248d0-b23d-4142-a5fc-7acfe01e1353)
 
@@ -19,6 +19,6 @@ C# algorithm.
 Simple sum of several fuctions to show total series. Without integrations, Fourier and etc. With ScottPlot.
 
 - Youtube: https://youtu.be/47REWOh4cVE
-- Rutube: https://rutube.ru/video/private/2196754e97f6eb3c5cfc168714fc17f0/?p=SWzzfGxVADRo72jn_CCZLg
+- Rutube: 
 
 ![image](https://github.com/user-attachments/assets/d45fcf0c-a6fc-40dc-97b6-e7fb08137fc6)
